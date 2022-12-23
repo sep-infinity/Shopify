@@ -1,0 +1,68 @@
+[
+	{
+		"name": "theme_info",
+		"theme_name": "TRO Theme",
+		"theme_author": "Sepehr H.Moghaddam",
+		"theme_version": "0.0.0",
+		"theme_documentation_url": "https://www.google.com",
+		"theme_support_email": "therugsoutlettechteam@gmail.com"
+	},
+	{
+		"name": "Typography",
+		"settings": [
+			{
+				"type": "font_picker",
+				"id": "themes_font",
+				"label": "Heading font",
+				"default": "basic_commercial_n4"
+			}
+		]
+	},
+	{
+		"name": "Color",
+		"settings": [
+			{
+				"type": "color",
+				"id": "theme_color_primary",
+				"label": "Primary",
+				"default": "#FFFFFF"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_secondary",
+				"label": "Secondary",
+				"default": "#FFFF00"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_tertiary",
+				"label": "Tertiary",
+				"default": "#00FFFF"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_quaternary",
+				"label": "Quaternary",
+				"default": "#FF0000"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_quinary",
+				"label": "Quinary",
+				"default": "#00FF00"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_senary",
+				"label": "Senary",
+				"default": "#0000FF"
+			},
+			{
+				"type": "color",
+				"id": "theme_color_septenary",
+				"label": "Septenary",
+				"default": "#000000"
+			}
+		]
+	}
+]

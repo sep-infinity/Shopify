@@ -1,0 +1,49 @@
+<section>
+</section>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+{% schema %}
+	{
+		"name": "Section Name",
+		"settings": [
+			{
+				"type": "header",
+				"content": "Enter Settings Of Section Here"
+			}
+		],
+        "max_blocks": 5,
+        "blocks": [
+			{
+				"name": "Block Name",
+				"type": "block_name",
+				"settings": [
+        			{
+        				"type": "header",
+        				"content": "Enter Settings Of Section Here"
+        			}
+                ]
+            },
+			{
+				"name": "Additional Block Name",
+				"type": "additional_block_name",
+				"settings": [
+        			{
+        				"type": "header",
+        				"content": "Enter Settings Of Section Here"
+        			}
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "category": "Video",
+                "name": "Section Name"
+            }
+        ]
+	}
+{% endschema %}

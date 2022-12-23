@@ -1,0 +1,115 @@
+/*----------------------------------------------------------------------------------------------------*/
+/*--- General { --------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	font-size: 18px;
+	font-family: {{ settings.themes_font.family }}, {{ settings.themes_font.fallback_families }};
+	text-decoration-color: {{ settings.theme_color_main }};
+	color: {{ settings.theme_color_quinary }};
+	background: {{ settings.theme_color_senary }};
+}
+.object {
+    overflow: visible;
+	width: 100%;
+	height: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*--- General { --------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/******************************************************************************************************/
+/*----------------------------------------------------------------------------------------------------*/
+/*--- Snippets { -------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/*--- Account_direct { -------------------------------------------------------------------------------*/
+
+.account--direct {
+	display: inline-block;
+	white-space: nowrap;
+}
+.account--direct--text {
+	position: relative;
+	display: inline-block;
+	top: 0px;
+	width: calc(100% - 25px);
+	height: 100%;
+	line-height: 100%;
+}
+.account--direct--icon {
+	position: relative;
+	display: inline-block;
+	top: 6px;
+	width: 22px;
+	height: 22px;
+}
+
+/*--- Account_direct } -------------------------------------------------------------------------------*/
+/*--- Search_bar { -----------------------------------------------------------------------------------*/
+
+.search-bar {
+	position: relative;
+	margin: auto;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 90%;
+	height: 35px;
+}
+.search-bar-txt {
+	padding: 0 0 0 0;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	text-indent: 10px;
+	border: 1px solid {{ settings.theme_color_quinary }};
+	border-radius: 100px;
+	color: {{ settings.theme_color_quinary }};
+	background: transparent;
+}
+.search-bar-button {
+	position:relative;
+	left:calc(100% - 35px - 10px);
+	bottom:35px;
+	width: 35px;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	background: transparent;
+}
+
+/*--- Search_bar } -----------------------------------------------------------------------------------*/
+/*--- Desktop_Nav { ----------------------------------------------------------------------------------*/
+
+.desktop-nav {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin: auto;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 90%;
+	height: 35px;
+}
+.desktop-nav-main {
+	line-height: 35px;
+	font-size: 18px;
+}
+.desktop-nav-main a {
+	color: {{ settings.theme_color_quinary }};
+	text-decoration: none;
+}
+.desktop-nav-main span:hover {
+	text-decoration: underline 8px;
+	text-decoration-color: {{ settings.theme_color_primary }};
+	text-underline-offset: 26px;
+}
+
+/*--- Desktop_Nav } ----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------------*/
+/*--- Snippets } -------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/

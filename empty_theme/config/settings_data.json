@@ -1,0 +1,33 @@
+{
+  "current": {
+    "theme_color_primary": "#7e3b51",
+    "theme_color_secondary": "#273561",
+    "theme_color_tertiary": "#416757",
+    "theme_color_quaternary": "#95b4b3",
+    "theme_color_quinary": "#616161",
+    "theme_color_senary": "#ffffff",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "announcment_bar_text_Left": "<p><a href=\"https:\/\/therugsoutlet.ca\/pages\/shipping-delivery\" title=\"Shipping & Delivery\"><strong>Free<\/strong> Express shipping<\/a> & <a href=\"https:\/\/therugsoutlet.ca\/pages\/return-and-refund-policy\" title=\"Return Policy\">30 Days Return<\/a><\/p>",
+          "announcment_bar_text_center": "<p><a href=\"https:\/\/therugsoutlet.ca\/pages\/about-us\" title=\"https:\/\/therugsoutlet.ca\/pages\/about-us\">Proudly Canadian - Family Owned<\/a><\/p>"
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "navigation_menu": "desktop-navigation"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
